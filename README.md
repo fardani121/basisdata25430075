@@ -1,14 +1,14 @@
-NAMA    : M FUAD FARDANI
-NPM     : 25430075
-KELAS   : C
+**NAMA    : M FUAD FARDANI**
+
+**NPM     : 25430075**
+
+**KELAS   : C**
 
 IDENTITAS PROYEK
 
-Tema    : Akademik
-Nama Organisasi : KOPERASI MAHASISWA
+Tema    : Akademik (Akad)
 
-Koperasi Mahasiswa/Kopma adalah badan usaha koperasi yang beranggotakan para mahasiswa di
-perguruan tinggi, yang didirikan, dikelola, dan dimiliki oleh mahasiswa itu sendiri.Memberikan
-pengalaman nyata kepada mahasiswa dalam mengelola bisnis, manajemen keuangan, pemasaran, dan
-kepemimpinan DAN Menyediakan barang dan jasa yang dibutuhkan sehari-hari.
+Nama Organisasi : Siakad UM Metro
+
+Lingkup Layanan: Sistem Informasi Akademik Universitas Muhammadiyah Metro (Siakad UM Metro) merupakan sistem terintegrasi yang dirancang untuk mendukung kegiatan operasional perguruan tinggi. Layanan utama sistem ini mencakup pengelolaan data mahasiswa, dosen, mata kuliah, penyusunan jadwal perkuliahan, proses pengisian dan validasi Kartu Rencana Studi (KRS) per semester, serta pencatatan dan rekapitulasi nilai hasil studi mahasiswa secara transparan dan akurat.
 
