@@ -1,0 +1,54 @@
+# Laporan Praktikum Basis Data
+**Nama:** M. Fuad Fardani  
+**NIM:** 25430075  
+**Kelas:** Sistem 3 (Praktikum Basis Data)  
+**Tanggal:** 19 Oktober 2026  
+**Pertemuan:** 4 (Normalisasi dan Skema Relasional)  
+
+---
+
+## 1. Tujuan Praktikum
+* Memahami dan mengidentifikasi anomali ubah, sisip, dan hapus pada data yang belum dinormalisasi[cite: 34, 62].
+* Menurunkan dependensi fungsional berdasarkan aturan bisnis (*Business Rules*)[cite: 35, 38].
+* Melakukan normalisasi bertahap mulai dari Bentuk Tidak Normal (UNF) hingga Bentuk Normal Ketiga (3NF) dan memeriksa BCNF[cite: 35, 36, 38].
+* Memutuskan penyimpanan nilai turunan (subtotal/total) agar terhindar dari inkonsistensi data[cite: 37, 38].
+
+## 2. Ringkasan Dasar Teori
+Normalisasi adalah proses pengorganisasian data ke dalam tabel-tabel untuk menghilangkan redundansi data dan mencegah anomali (ubah, sisip, hapus)[cite: 34, 35]. Proses ini dilakukan secara bertahap dari UNF, 1NF, 2NF, hingga 3NF menggunakan dasar dependensi fungsional (*functional dependency*) yang diturunkan dari aturan bisnis organisasi[cite: 35, 36, 37].
+
+ ## 2. **Tangkapan layar hasil langkah percobaan berada pada folder Image4.**
+
+## 4. Jawaban Titik Analisis
+* **Titik Analisis 1:** Menjelaskan mengapa harga satuan transaksi disimpan pada level detail nota agar tidak berubah atau terpengaruh saat harga barang di tabel master mengalami kenaikan di masa mendatang[cite: 36].
+* **Titik Analisis 2:** Membedakan data operasional yang masih dinamis dengan potret historis yang tidak boleh berubah[cite: 37].
+* **Titik Analisis 3:** Memastikan informasi relasi pemasok dan barang dikelola secara fleksibel melalui riwayat pembelian[cite: 38].
+
+## 5. Hasil Latihan dan Modifikasi
+* Melakukan latihan pemodelan tambahan untuk mencatat nomor telepon ganda pemasok serta menganalisis pelanggaran 3NF jika atribut nama disimpan pada tabel transaksional yang salah[cite: 38].
+
+## 6. Tugas Mandiri: Milestone Proyek 4
+* Menyelesaikan dokumen normalisasi untuk proyek tema **Akademik** (`akad_075`) mulai dari dokumen sumber KRS, penentuan dependensi fungsional (FD1–FD4), normalisasi 1NF hingga 3NF, hingga keputusan nilai turunan (seperti IPK/IPS yang dihitung secara dinamis).
+* Berkas disimpan pada repositori dengan nama `p04_normalisasi_25430075.md`.
+
+## 7. Pembahasan dan Kendala
+* Tidak ada kendala berarti dalam penurunan dependensi fungsional, karena aturan bisnis sudah dirumuskan dengan jelas sejak Modul 2.
+
+## 8. Kesimpulan
+Normalisasi sangat penting untuk memastikan struktur basis data bersih dari anomali, mudah dikelola, dan memiliki integritas data yang tinggi sebelum diimplementasikan ke dalam kode DDL server basis data.
+
+## 9. Pernyataan Penggunaan AI
+* Menggunakan bantuan asisten AI untuk memvalidasi tahapan normalisasi dan menyusun struktur penulisan laporan Markdown.
+
+## 10. Bukti Git
+* **Tautan Repositori:** `https://github.com/fardani121/basisdata-25430075`[cite: 15]
+* **Pesan Commit:** `p04: normalisasi akademik dan laporan praktikum`[cite: 16, 36]
+
+---
+## Checklist
+- [x] Identitas lengkap (Nama, NIM, Kelas, Tanggal, Pertemuan)[cite: 23, 24]
+- [x] Tujuan praktikum diringkas dengan bahasa sendiri[cite: 23, 24]
+- [x] Ringkasan teori dipahami dan dituliskan ringkas[cite: 23, 24]
+- [x] Hasil langkah percobaan dan Titik Analisis terjawab[cite: 23, 24]
+- [x] Latihan dan Modifikasi disertakan[cite: 23, 24]
+- [x] Milestone Proyek 4 (Normalisasi Akademik & Kopma) selesai dan di-push ke GitHub[cite: 26, 38]
+- [x] Pembahasan, kendala, kesimpulan, dan bukti Git tercatat[cite: 24]
